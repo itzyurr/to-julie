@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title>Your Page Title</title>
+</head>
+<body>
+    <div class="container opening">
+        <h2>"Hi, Idol Julie Aringo, welcome sa sakong buhay HAHA."</h2>
+        <p>"May bareta lang ako saiyo, ipadayun mo lang an tamang sagot para dai ka masakitan!"</p>
+        <button class="btn btn-next" onclick="showMainPage()">Next</button>
+    </div>
+
+    <div class="container main" style="display: none;">
+        <img src="img/s.jpg" alt="Header Image" class="header-image">
+        <h2 id="question">"Hi langga, pwede bako nimo e-date kani 14? Hara o harayo! Suntukon taka ron."</h2>
+        <button class="btn btn-yes" onclick="showGif()">Yes</button>
+        <button class="btn btn-no" onclick="changeNoName()">No</button>
+        <div class="gif-container">
+            <img class="gif" src="img/happy.webp" alt="Thank You GIF">
+            <p class="thank-you">HAHA NAG YES KA NGA JULIE SORRY NAPAGTRIPAN</p>
+        </div>
+    </div>
+
+    <script src="new.js"></script>
+</body>
+</html>
